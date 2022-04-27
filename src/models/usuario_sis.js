@@ -1,6 +1,7 @@
 import { DataTypes } from 'sequelize';
 
 import { sequelize } from '../database/database.js';
+import { Genero } from './genero.js';
 
 export const UsuarioSis = sequelize.define(
     "usuario_sis",
@@ -29,6 +30,10 @@ export const UsuarioSis = sequelize.define(
         id_genero: {
             type: DataTypes.INTEGER,
             comment: "Genero del usuario",
+            references: {
+                model: Genero,
+                key: "id_genero",
+            },
         },
         telefono: {
             type: DataTypes.STRING(200),

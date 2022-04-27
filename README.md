@@ -24,3 +24,17 @@ select * from usuario_sis_trabajador where id_usuario = 849
 ```
 - Modelo Base
 ![Image text](bdauth.png)
+
+
+- Json Test Para Crear Usuario
+```
+{
+    "nombres":"edgar carlos mauricio",
+    "apellidos":"quintero romero",
+    "fecha_nacimiento":"1979-08-18 00:00:00.000 -0500",
+    "id_genero":1,
+    "telefono":3193779313,
+    "correo":"pepe@gmail.com",
+    "estado":1
+}
+```
