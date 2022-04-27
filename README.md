@@ -1,5 +1,6 @@
 # Dependencias Usadas
-- npm i express morgan sequelize pg pg-hstore nodemon -D
+- npm i express morgan sequelize pg pg-hstore  dotenv
+- npm i sequelize-cli nodemon -D
 
 # Modelo De Datos
 
